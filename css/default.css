@@ -1,0 +1,33 @@
+
+html {
+    box-sizing : border-box;
+    font-size:  62.5%;
+}
+
+body{
+    line-height: 1.6;
+    font-size: 1.6rem;
+    font-family: var(--primary-font);
+    direction: rtl;
+    padding: 0px 20px;
+}
+
+
+* , *::after , *::before {
+    outline: none;
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none !important;
+    color: var(---dark-color) !important;
+    transition: all 400ms ease !important;
+}
+
+a:hover{
+    color: #1e83f0;
+}
+
+i{
+    user-select: none;
+}
